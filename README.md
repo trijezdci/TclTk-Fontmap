@@ -26,9 +26,9 @@ convention or alternative style suffixes.
 
 (1) `proc ::fontmap::font_name_list_for {font_family}`
 
-     returns a list with the font names for the regular, slanted, bold and
-     slanted-bold style fonts of font-family.  A font name of 'nil' denotes
-     an unavailable font for the respective style.
+> returns a list with the font names for the regular, slanted, bold and
+> slanted-bold style fonts of font-family.  A font name of 'nil' denotes
+> an unavailable font for the respective style.
 
  Example:
 ```
@@ -55,12 +55,12 @@ and 15 for each family.  Two public functions are provided:
 
 (2) `proc ::fontmap::is_mapped_font {font_map font_spec}`
 
-     returns 0 if the passed font-spec is mapped in font-map , otherwise 1.
+> returns 0 if the passed font-spec is mapped in font-map , otherwise 1.
 
 (3) `proc ::fontmap::font_map_for {font_families_and_pitches_list}`
 
-     returns a custom font map, initialised from the list of font families
-     and pitches passed or the default font list if no list is passed.
+> returns a custom font map, initialised from the list of font families
+> and pitches passed or the default font list if no list is passed.
 
  Example:
 ```
