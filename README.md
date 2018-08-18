@@ -66,8 +66,8 @@ and 15 for each family.  Two public functions are provided:
 ```
   import ::fontmap::font_map_for
   ...
-  .c postscript -fontmap\
-    [font_map_for {FreeSans 12 14} {FreeSerif 12 14} {FreeMono 10}]\
+  .c postscript\
+    -fontmap [font_map_for {FreeSans 12 14} {FreeSerif 12 14} {FreeMono 10}]\
     -file sample.ps
 ```
 
