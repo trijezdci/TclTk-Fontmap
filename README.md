@@ -55,7 +55,7 @@ and 15 for each family.  Two public functions are provided:
 
 `proc ::fontmap::is_mapped_font {font_map font_spec}`
 
-> returns 0 if the passed font-spec is mapped in font-map , otherwise 1.
+> returns 1 if the passed font-spec is mapped in font-map , otherwise 0.
 
 `proc ::fontmap::font_map_for {font_families_and_pitches_list}`
 
